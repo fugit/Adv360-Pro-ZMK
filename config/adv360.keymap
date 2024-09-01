@@ -44,7 +44,7 @@
        &kp TAB               &kp Q     &kp W     &kp E      &kp R   &kp T                &none                                                                       &none   &kp Y   &kp U      &kp I                 &kp O                    &kp P               &kp BSLH
  &kp BACKSPACE               &kp A     &kp S     &kp D      &kp F   &kp G                &none   &kp LCTRL  &kp LALT                  &kp RIGHT_ALT  &kp RCTRL       &none   &kp H   &kp J      &kp K                 &kp L                 &kp SEMI       &kp SINGLE_QUOTE
      &kp LSHFT  &mt LEFT_CONTROL Z     &kp X     &kp C      &kp V   &kp B                                   &kp HOME                      &kp PG_UP                          &kp N   &kp M  &kp COMMA  &mt RIGHT_ALT PERIOD  &mt RIGHT_CONTROL SLASH  &mt RIGHT_SHIFT EQUAL
-         &mo 2           &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT                    &kp SPACE  &kp ESCAPE   &kp END                      &kp PG_DN   &kp LGUI  &kp RETURN          &kp UP   &kp DOWN              &kp LBKT                 &kp RBKT                  &mo 2
+         &mo 2           &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT                    &kp SPACE  &kp ESCAPE   &kp END                      &kp PG_DN   &kp LGUI  &kp RETURN          &kp UP   &kp DOWN              &kp LBKT                 &kp RBKT                  &mo 4
             >;
         };
 
@@ -75,6 +75,16 @@
   &none         &none         &none         &none         &none         &none                  &none   &none   &none                  &bt BT_CLR       &none  &rgb_ug RGB_MEFS_CMD 5   &none       &none       &none   &none   &none   &none
   &none         &none         &none         &none    &macro_ver         &none                                  &none                       &none                                       &none       &none       &none   &none   &none   &none
   &none         &none         &none         &none         &none                                &none   &none   &none                       &none  &bl BL_TOG         &rgb_ug RGB_TOG          &bl BL_INC  &bl BL_DEC   &none   &none   &none
+            >;
+        };
+
+        layer_GameArrows {
+            bindings = <
+      &kp GRAVE      &kp NUMBER_1    &kp NUMBER_2           &trans           &trans  &trans               &tog 0                                                                                        &trans  &trans  &trans  &trans  &trans  &trans  &trans
+        &kp TAB            &trans    &kp UP_ARROW           &trans           &trans  &tog 0               &trans                                                                                        &trans  &trans  &trans  &trans  &trans  &trans  &trans
+  &kp BACKSPACE    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW           &trans  &tog 1               &trans  &kp LEFT_CONTROL  &kp LEFT_ALT                  &kp RIGHT_ALT  &kp RIGHT_CONTROL      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &kp LEFT_SHIFT  &kp LEFT_CONTROL       &kp SPACE     &kp UP_ARROW           &trans  &trans                                               &trans                         &trans                                 &tog 2  &trans  &trans  &trans  &trans  &trans
+         &tog 2            &trans  &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW                    &kp ENTER        &kp ESCAPE        &trans                         &trans      &kp RIGHT_GUI  &kp RETURN          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
