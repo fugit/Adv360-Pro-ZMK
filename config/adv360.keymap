@@ -56,11 +56,11 @@
 
         layer_Brd_Sys {
             bindings = <
-&kp GRAVE  &kp F1          &kp F2             &kp F3        &kp F4      &kp F5  &tog 1                                      &mo 3   &kp F6         &kp F7          &kp F8          &kp F9           &kp F10  &kp DELETE
-&trans     &trans          &kp C_VOLUME_DOWN  &kp C_VOL_UP  &kp K_MUTE  &trans  &none                                       &none   &kp PAGE_UP    &kp HOME        &kp UP_ARROW    &kp END          &trans   &trans
-&trans     &kp K_PREVIOUS  &kp K_FORWARD      &kp C_STOP    &kp C_PLAY  &trans  &none   &trans  &trans      &trans  &trans  &none   &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans   &trans
-&trans     &trans          &trans             &trans        &trans      &trans                  &trans      &trans                  &to 4          &kp K_PREVIOUS  &kp C_NEXT      &trans           &trans   &trans
-&trans     &trans          &trans             &trans        &trans              &trans  &trans  &trans      &trans  &trans  &trans                 &trans          &trans          &trans           &trans   &trans
+&kp GRAVE  &kp F1          &kp F2             &kp F3        &kp F4      &kp F5  &tog 1                                         &mo 3   &kp F6         &kp F7          &kp F8          &kp F9           &kp F10  &kp DELETE
+&trans     &trans          &kp C_VOLUME_DOWN  &kp C_VOL_UP  &kp K_MUTE  &trans  &none                                          &none   &kp PAGE_UP    &kp HOME        &kp UP_ARROW    &kp END          &trans   &trans
+&trans     &kp K_PREVIOUS  &kp K_FORWARD      &kp C_STOP    &kp C_PLAY  &trans  &none      &trans  &trans      &trans  &trans  &none   &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans   &trans
+&trans     &trans          &trans             &trans        &trans      &trans                     &trans      &trans                  &to 4          &kp K_PREVIOUS  &kp C_NEXT      &trans           &trans   &trans
+&trans     &trans          &trans             &trans        &trans              &kp SPACE  &trans  &trans      &trans  &trans  &trans                 &trans          &trans          &trans           &trans   &trans
             >;
         };
 
