@@ -13,6 +13,7 @@
 #include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/rgb.h>
 
 / {
@@ -81,6 +82,16 @@
 &kp BACKSPACE   &kp LEFT_ARROW    &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans           &tog 1  &trans     &kp LEFT_CONTROL  &kp LEFT_ALT      &kp RIGHT_ALT  &kp RIGHT_CONTROL  &trans      &trans  &trans  &trans  &trans  &trans  &trans
 &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp SPACE       &kp UP_ARROW     &trans           &trans                               &trans            &trans                                        &tog 2  &trans  &trans  &trans  &trans  &trans
 &tog 2          &trans            &kp LEFT_ARROW  &kp DOWN_ARROW   &kp RIGHT_ARROW          &kp ENTER  &kp ESCAPE        &trans            &trans         &kp RIGHT_GUI      &kp RETURN          &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        Mouse {
+            bindings = <
+&trans  &trans  &trans  &trans        &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &mmv MOVE_UP  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans        &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans        &trans  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans        &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
