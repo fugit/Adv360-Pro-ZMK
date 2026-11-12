@@ -1,1 +1,7 @@
 /firmware/*.uf2
+/build/
+/zmk/
+/zephyr/
+/modules/
+/tools/
+/.west/
